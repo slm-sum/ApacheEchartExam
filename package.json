@@ -1,0 +1,32 @@
+{
+  "name": "apacheechartexam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "rollup -c",
+    "watch": "rollup -w -c",
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.7",
+    "http-server": "^14.1.1",
+    "lite-server": "^2.6.1",
+    "nodemon": "^3.1.4",
+    "rollup": "^4.20.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "echarts": "^5.5.1"
+  }
+}
